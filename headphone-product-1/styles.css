@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1110px;
+    min-width: 375px;
+    margin: auto;
+    font-family: Manrope;
+}
+.header {
+    padding-bottom: 30px;
+}
+.site-main {
+    text-align: center;
+    background-color: #000;
+}
+.site-nav {
+    max-width: 900px;
+    margin: auto;
+    padding: 32px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-nav__link:hover {
+    color: #d3692b;
+}
+.site-nav__texts {
+    display: flex;
+    align-items: center;
+}
+.gap {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.dtb-block {
+    display: none;
+}
+.header-line {
+    max-width: 900px;
+    margin: auto;
+    border-top: 1px solid #fff;
+    opacity: .1;
+}
+.XX99-box {
+    padding: 16px 24px;
+}
+.d-block {
+    display: none;
+}
+.XX99-box__link {
+    font-size: 15px;
+    font-weight: 500;
+    opacity: .5;
+    color: black;
+    padding-left: 25px;
+    text-decoration: none;
+}
+.XX99-box__img {
+    height: 327px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(..//images/qora.png);
+}
+.XX99-box__text {
+    color: #D87D4A;
+    letter-spacing: 10px;
+}
+.XX99-box__head {
+    padding: 24px 0;
+    padding-right: 50px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.XX99-box__text2 {
+    font-size: 15px;
+    font-weight: 500;
+    opacity: .5;
+    padding-bottom: 24px;
+}
+.XX99-box__number {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.5px;
+    letter-spacing: 1.5px;
+    padding-bottom: 31px;
+}
+.flex {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 75px;
+}
+.XX99-box__select {
+    width: 120px;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F1F1F1;
+}
+.select-number {
+    font-size: 13px;
+    font-weight: 700;
+    margin: auto;
+}
+.ops {
+    opacity: .25;
+}
+.ops:hover {
+    opacity: 10;
+    color: #d3692b;
+}
+.XX99-box__btn {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 15px 32px;
+    color: white;
+    border: none;
+    background-color: #D87D4A;
+}
+.feature-box {
+    margin: auto;
+    padding: 0 24px;
+    padding-bottom: 88px;
+}
+.feature-box__head {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: .86px;
+}
+.feature-box__text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    opacity: .5;
+    padding-top: 24px;
+}
+.box {
+    margin: auto;
+    padding: 0 24px;
+    padding-bottom: 80px;
+}
+.box__head {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: .86;
+    padding-bottom: 24px;
+}
+.box__item {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 8px;
+}
+.box__number {
+    font-size: 15px;
+    font-weight: 700;
+    color: #D87D4A;
+}
+.box__text {
+    font-size: 15px;
+    font-weight: 500;
+    opacity: .5;
+}
+.product-img__box {
+    width: 330px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product-img {
+    height: 170px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.product-img2 {
+    height: 360px;
+    border-radius: 8px;
+}
+.like-box {
+    width: 330px;
+    margin: auto;
+}
+.like-box__head {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.like-box__item {
+    text-align: center;
+}
+.like-box__back {
+    width: 327px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+}
+.like-box__img {
+    width: 73px;
+    height: 95px;
+    border-radius: 8px;
+}
+.like-box__img2 {
+    width: 79px;
+    height: 83px;
+}
+.like-box__img3 {
+    width: 71px;
+    height: 86px;
+}
+.top {
+    margin-top: 12px;
+}
+.like-box__head2 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 45px;
+    padding-bottom: 32px;
+}
+.like-box__btn {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-bottom: 55px;
+    text-transform: uppercase;
+    background-color: #D87D4A;
+    transition: all .2s;
+}
+.like-box__btn:hover {
+    background-color: #fbaf85;
+}
+.site-shop {
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    gap: 68px;
+}
+.site-shop__img {
+    width: 80px;
+    margin-top: -50px;
+}
+.site-shop__item {
+    width: 327px;
+    height: 165px;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.site-shop__head {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.07px;
+    padding-top: 36px;
+    padding-bottom: 17px;
+}
+.site-shop__link {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: black;
+    opacity: .5;
+    text-decoration: none;
+}
+.site-shop__link:hover {
+    color: #D87D4A;
+}
+.fa-angle-right {
+    color: #d3692b;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.site-bring {
+    text-align: center;
+    padding: 0 24px;
+    padding-bottom: 120px;
+}
+.site-bring__img {
+    min-width: 327px;
+    height: 300px;
+    margin:0 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-image: url(../images/tablet\ odam.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.dtb-none {
+    display: none;
+}
+.site-bring__head {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+.red {
+    color: #D87D4A;
+}
+.site-bring__text {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    opacity: .5;
+}
+.footer {
+    padding: 0 24px;
+    padding-bottom: 38px;
+    text-align: center;
+    background-color: #101010;
+}
+.footer-line {
+    width: 101px;
+    margin: auto;
+    border-top: 4px solid #D87D4A;
+    border-radius: 10px;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 48px;
+}
+.bottom {
+    margin-top: 52px;
+    margin-bottom: 24px;
+}
+.footer-nav__link {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.footer-nav__link:hover {
+    color: #D87D4A;
+}
+.footer-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    color: white;
+    opacity: .5;
+}
+.weight {
+    padding-top: 48px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.fa-brands {
+    color: white;
+    font-size: 24px;
+    margin: 0 16px;
+}
+.fa-brands:hover {
+    color: #D87D4A;
+}
+.fa-dove {
+    color: white;
+    font-size: 24px;
+}
+.fa-dove:hover {
+    color: #D87D4A;
+}
+@media (min-width: 750px) {
+    .XX99-box {
+        display: flex;
+        align-items: center;
+        gap: 70px;
+        padding-bottom: 100px;
+    }
+    .d-none {
+        display: none;
+    }
+    .d-block {
+        display: block;
+    }
+    .XX99-box__img {
+        width: 280px;
+        height: 480px;
+        margin-top: 24px;
+        margin-bottom: 32px;
+        border-radius: 8px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain    ;
+        background-image: url(..//images/qora.png);
+    }
+    .box {
+        display: flex;
+        gap: 200px;
+    }
+    .box__head {
+        font-size: 32px;
+    }
+    .product-img__box {
+        width: 650px;
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+    }
+    .product-img2 {
+        margin-top: 15px;
+    }
+    .like-box {
+        width: 700px;
+    }
+    .like-box__head {
+        font-size: 32px;
+    }
+    .flex-tablet {
+        display: flex;
+        gap: 11px;
+    }
+    .like-box__back {
+        width: 223px;
+        height: 318px;
+    }
+    .like-box__img {
+        width: 148px;
+        height: 193px;
+    }
+    .like-box__img2 {
+        width: 190px;
+        height: 200px;
+    }
+    .like-box__img3 {
+        width: 143px;
+        height: 172px;
+    }
+    .site-shop {
+        flex-direction: row;
+        gap: 0;
+    }
+    .site-shop__item {
+        width: 223px;
+    }
+    .footer {
+        padding-bottom: 0;
+    }
+    .footer-nav {
+        gap: 34px;
+        padding-bottom: 32px;
+    }
+    .footer-line {
+        margin: 0 40px;
+    }
+    .bottom {
+        text-align: start;
+        padding-left: 40px;
+        margin-bottom: 0px;
+    }
+    .flex {
+        flex-direction: row;
+        padding:0 40px;
+    }
+    .footer-text {
+        text-align: left;
+        padding-left: 40px;
+        padding-bottom: 40px;
+    }
+    .flex-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 1024px) {
+    .XX99-box__img {
+        width: 540px;
+        height: 560px;
+    }
+}
