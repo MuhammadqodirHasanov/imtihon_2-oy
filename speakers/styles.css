@@ -21,6 +21,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.site-nav__link {
+    transition: all .2s;
+}
 .site-nav__link:hover {
     color: #d3692b;
 }
@@ -106,6 +109,7 @@
     color: white;
     border: none;
     margin: 24px 0;
+    transition: all .2s;
     background-color: #D87D4A;
     text-transform: uppercase;
 }
@@ -143,6 +147,7 @@
     font-weight: 700;
     letter-spacing: 1px;
     color: black;
+    transition: all .2s;
     opacity: .5;
     text-decoration: none;
 }
@@ -218,6 +223,7 @@
     line-height: 25px;
     letter-spacing: 2px;
     display: block;
+    transition: all .2s;
     color: white;
     text-decoration: none;
 }
@@ -239,6 +245,7 @@
 .fa-brands {
     color: white;
     font-size: 24px;
+    transition: all .2s;
     margin: 0 16px;
 }
 .fa-brands:hover {
@@ -246,6 +253,7 @@
 }
 .fa-dove {
     color: white;
+    transition: all .2s;
     font-size: 24px;
 }
 .fa-dove:hover {

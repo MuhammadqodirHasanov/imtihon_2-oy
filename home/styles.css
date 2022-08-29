@@ -78,6 +78,7 @@
     padding: 15px 30px;
     color: white;
     border: none;
+    transition: all .2s;
     background-color: #D87D4A;
     text-transform: uppercase;
 }
@@ -117,6 +118,7 @@
     letter-spacing: 1px;
     color: black;
     opacity: .5;
+    transition: all .2s;
     text-decoration: none;
 }
 .site-shop__link:hover {
@@ -161,6 +163,7 @@
     padding: 15px 30px;
     background-color: #000;
     border: none;
+    transition: all .2s;
     text-transform: uppercase;
 }
 .ZXnine__btn:hover {
@@ -193,6 +196,7 @@
     background-color: transparent;
     padding: 15px 30px;
     margin-bottom: 100px;
+    transition: all .2s;
     text-transform: uppercase;
 }
 .ZXseven__btn:hover {
@@ -224,6 +228,7 @@
     font-weight: 700;
     padding: 15px 30px;
     margin-top: 32px;
+    transition: all .2s;
     border: 1px solid #000;
 }
 .YXone__btn:hover {
@@ -296,6 +301,7 @@
     letter-spacing: 2px;
     display: block;
     color: white;
+    transition: all .2s;
     text-decoration: none;
 }
 .footer-nav__link:hover {
@@ -317,12 +323,14 @@
     color: white;
     font-size: 24px;
     margin: 0 16px;
+    transition: all .2s;
 }
 .fa-brands:hover {
     color: #D87D4A;
 }
 .fa-dove {
     color: white;
+    transition: all .2s;
     font-size: 24px;
 }
 .fa-dove:hover {
@@ -429,7 +437,7 @@
         display: none;
     }
     .header-nav {
-        max-width: 850px;
+        max-width: 900px;
         margin: auto;
     }
     .site-nav__links-box {
@@ -444,6 +452,7 @@
         font-weight: 700;
         letter-spacing: 2px;
         color: white;
+        transition: all .2s;
         text-decoration: none;
     }
     .site-nav__texts {
